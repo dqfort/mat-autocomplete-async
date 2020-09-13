@@ -1,6 +1,6 @@
-# Mat-Autocomplete-Http
+# Mat-Autocomplete-Async
 
-Mat-Autocomplete-Http is a library to make building an autocomplete with Angular Material easier.
+Mat-Autocomplete-Async is a library to make building an autocomplete with Angular Material easier.
 
 ## Quickstart
 
