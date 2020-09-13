@@ -3,6 +3,7 @@
 Mat-Autocomplete-Async is a library to make building an autocomplete with Angular Material easier.
 
 ## Quickstart
+[Here](https://stackblitz.com/edit/mat-autocomplete-async-example) is an example.
 
 1. Install the library.
     ```bash
