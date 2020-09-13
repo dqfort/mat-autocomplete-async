@@ -1,13 +1,12 @@
 import { NgModule } from '@angular/core';
-import { MatAutocompleteAsyncComponent } from './mat-autocomplete-async.component';
 import { MatAutocompleteAsyncDirective } from './mat-autocomplete-async.directive';
 
 
 
 @NgModule({
-  declarations: [MatAutocompleteAsyncComponent, MatAutocompleteAsyncDirective],
+  declarations: [MatAutocompleteAsyncDirective],
   imports: [
   ],
-  exports: [MatAutocompleteAsyncComponent, MatAutocompleteAsyncDirective]
+  exports: [MatAutocompleteAsyncDirective]
 })
 export class MatAutocompleteAsyncModule { }
