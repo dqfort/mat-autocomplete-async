@@ -5,6 +5,9 @@ Mat-Autocomplete-Http is a library to make building an autocomplete with Angular
 ## Quickstart
 
 1. Install the library.
+    ```bash
+    npm i mat-autocomplete-async
+    ```
 2. Create an observable arrays for looking filtered options.
 3. Using a normal angular material autocomplete templete, but adding `matAutocompleteHttp` as attribule in `MatInput`
 
@@ -15,7 +18,7 @@ Mat-Autocomplete-Http is a library to make building an autocomplete with Angular
             matInput
             [formControl]="myControl"
             [matAutocomplete]="auto"
-            matAutocompleteHttp
+            matAutocompleteAsync
             >
     <mat-autocomplete #auto="matAutocomplete"  autoActiveFirstOption="true">
         <mat-option *ngFor="let option of filteredOptions | async" [value]="option.id">
