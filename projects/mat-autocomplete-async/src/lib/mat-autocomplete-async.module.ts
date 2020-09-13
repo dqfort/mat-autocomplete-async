@@ -8,6 +8,6 @@ import { MatAutocompleteAsyncDirective } from './mat-autocomplete-async.directiv
   declarations: [MatAutocompleteAsyncComponent, MatAutocompleteAsyncDirective],
   imports: [
   ],
-  exports: [MatAutocompleteAsyncComponent]
+  exports: [MatAutocompleteAsyncComponent, MatAutocompleteAsyncDirective]
 })
 export class MatAutocompleteAsyncModule { }
