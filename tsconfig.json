@@ -14,7 +14,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "mat-autocomplete-async": [
+        "dist/mat-autocomplete-async/mat-autocomplete-async",
+        "dist/mat-autocomplete-async"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
